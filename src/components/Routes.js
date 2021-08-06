@@ -8,6 +8,7 @@ import MaterialUiSample from './MaterialUiSample';
 import Header from './Header';
 import Footer from './Footer';
 import Welcome from './Welcome';
+import DataMapper from '../redux/DataMapper';
 
 const Routes = () => {
     return (
@@ -28,6 +29,7 @@ const Routes = () => {
                             <Route path="/form"><MyForm /></Route>
                             <Route path="/home"><Home /></Route>
                             <Route path="/mat"><MaterialUiSample /></Route>
+                            <Route path="/datamapper"> <DataMapper /> </Route>
                             <Route path="/*"><PageNotFound /></Route>
                         </Switch>
                     </div>

@@ -21,6 +21,9 @@ const Header = () => (
         <li className="nav-item">
           <Link className="nav-link" to="/mat">Material-UI</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/datamapper">Data Mapper</Link>
+        </li>
       </ul>
     </nav>
   </div>
